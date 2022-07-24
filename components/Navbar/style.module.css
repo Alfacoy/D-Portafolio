@@ -1,0 +1,37 @@
+.navbar {
+    /*background-color: #242526;*/
+    background-color: rgba(36,37,38,0.9);
+    display: flex;
+    justify-content: space-between;
+    grid-area: navbar;
+    padding: 1rem 1rem;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar__brand {
+    color: #fff;
+}
+
+.navbar__links {
+    color: #fff;
+}
+
+.navbar__links > a {
+    padding-left: 1rem;
+}
+
+/*RESPONSIVE*/
+/*MOBILE*/
+@media screen and (max-width: 799px) and (orientation:landscape){
+
+}
+
+@media screen and (min-width: 800px) {
+
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1200px){
+
+}
