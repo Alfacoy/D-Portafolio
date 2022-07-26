@@ -5,7 +5,7 @@ const Wellcome = () => {
         <header className={` ${style.header} g_container`}>
             <article>
                 <div>
-                    <h1 className={`g_title`}>Brian Durand</h1>
+                    <h1 className={`g_title`}>Brian Pepe</h1>
                     <h2 className={style.header__subtitle}>Full Stack Developer</h2>
                 </div>
 
