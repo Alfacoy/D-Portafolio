@@ -7,8 +7,8 @@ const Navbar = () => {
             <Link href="/"><a><b className={`${style.navbar__brand}`}>Brian Durand</b></a></Link>
 
             <ul className={`${style.navbar__links}`}>
-                <Link href="/about"><a>Sobre Mi</a></Link>
-                <Link href="/#contacto"><a>Contacto</a></Link>
+                <Link href="/about"><a className={`${style.navbar__link}`}>Sobre Mí</a></Link>
+                <Link href="/#contact"><a className={`${style.navbar__link}`}>Contacto</a></Link>
             </ul>
         </nav>
     )
