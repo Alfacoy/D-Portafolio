@@ -46,6 +46,10 @@
     text-align: center;
 }
 
+.footer__copyright>p>span {
+    display: block;
+}
+
 /*THEME*/
 .footer_light{
     color: #fff;
@@ -60,30 +64,27 @@
 @media screen and (min-width: 500px) {
     .footer__content {
             display: flex;
-            justify-content: flex-end;
+            justify-content: space-around;
         }
     
-        .footer__content > div > ul {
-            text-align: left;
-        }
-    
-        .footer__content > div {
-            margin-left: 3rem;
-        }
 }
 
 @media screen and (min-width: 800px){
     .footer__content {
-        display: flex;
-        justify-content: flex-end;
-    }
+            display: flex;
+            justify-content: flex-end;
+        }
 
-    .footer__content > div > ul  {
+    .footer__content>div>ul {
         text-align: left;
     }
 
-    .footer__content > div {
+    .footer__content>div {
         margin-left: 3rem;
+    }
+
+    .footer__copyright>p>span {
+        display: inline-block;
     }
 }
 

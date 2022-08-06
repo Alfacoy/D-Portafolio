@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={`${style.footer__copyright}`}>
-                    <p>Hecho con &#128150; por <b>Brian Durand</b>. Copyright © {year}.</p>
+                    <p>Hecho con &#128150; por <b>Brian Durand</b>. <span>Copyright © {year}.</span></p>
                 </div>
             </div>
         </footer>

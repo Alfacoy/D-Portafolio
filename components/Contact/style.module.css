@@ -16,6 +16,10 @@
     margin: 0 0 2rem 0;
 }
 
+.contact_socialMedia > ul {
+    padding: 0;
+}
+
 .socialMedia__box {
     align-items: center;
     border: 2px solid var(--text);
