@@ -8,7 +8,10 @@ export default function Home() {
                 <h1 className="g_title">Changelog</h1>
                 <hr />
                 <section>
-                    <h3 className="g_title">1.0.0</h3>
+                    <h3 className="g_title">1.0.0</h3> 
+                    <ul>
+                        <li>Hola</li>
+                    </ul>
                 </section>
             </article>
         </>

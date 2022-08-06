@@ -23,9 +23,9 @@ const Footer = () => {
                     <div>
                         <p className={`${style.footer__titleLinks}`}><b>Contenido</b></p>
                         <ul>
-                            <Link href={"/about"}><a className={`${style.footer__link}`}>Sobre mí</a></Link>
-                            <Link href={"/#contact"}><a className={`${style.footer__link}`}>Contacto</a></Link>
-                            <Link href="/changelog"><a className={`${style.footer__link}`}>Changelog</a></Link>
+                            <li><Link href={"/about"}><a className={`${style.footer__link}`}>Sobre mí</a></Link></li>
+                            <li><Link href={"/#contact"}><a className={`${style.footer__link}`}>Contacto</a></Link></li>
+                            <li><Link href="/changelog"><a className={`${style.footer__link}`}>Changelog</a></Link></li>
                         </ul>
                     </div>
                 </div>

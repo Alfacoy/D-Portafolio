@@ -21,9 +21,20 @@
     text-transform: uppercase;
 }
 
+.footer__content > div > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__content >div >ul > li {
+    list-style: none;
+}
+
 .footer__link {
-    display: block;
     padding-bottom: .5rem;
+    display: inline-block;
 }
 :hover.footer__link {
     color: #fff;
@@ -52,11 +63,11 @@
             justify-content: flex-end;
         }
     
-        .footer__content>div>ul {
+        .footer__content > div > ul {
             text-align: left;
         }
     
-        .footer__content>div {
+        .footer__content > div {
             margin-left: 3rem;
         }
 }
@@ -71,7 +82,7 @@
         text-align: left;
     }
 
-    .footer__content>div {
+    .footer__content > div {
         margin-left: 3rem;
     }
 }

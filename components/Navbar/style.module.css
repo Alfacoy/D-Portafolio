@@ -13,11 +13,14 @@
     color: #fff;
 }
 
-.navbar__links {
+.navbar > ul {
+    margin: 0;
+    padding: 0;
     color: #fff;
 }
 
-.navbar__links > a {
+.navbar__links > li {
+    display: inline-block;
     padding-left: 1rem;
 }
 
