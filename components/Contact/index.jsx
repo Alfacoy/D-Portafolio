@@ -58,15 +58,15 @@ const Contact = () => {
                     <div className={style.contact_socialMedia}>
                         <p>Si te interesa, puedes buscarme en mis <b className={`g_highlight__primary`}>redes sociales</b> <span>&#128227;</span>.</p>
                         <ul>
-                            <a href='https://github.com/Alfacoy' target="_blank">
+                            <a href='https://github.com/Alfacoy' target="_blank" rel='noopener noreferrer'>
                                 <li className={`${style.socialMedia__box}`}>
-                                    <img src="/images/icon/social_media/github_light.svg" className={`${style.socialMedia_image}`} />
+                                    <img src="/images/icon/social_media/github_light.svg" className={`${style.socialMedia_image}`} alt="Github Icon"/>
                                      <span>Github</span>
                                 </li>
                             </a>
-                            <a href='https://www.linkedin.com/in/durand18/' target="_blank">
+                            <a href='https://www.linkedin.com/in/durand18/' target="_blank" rel='noopener noreferrer'>
                                 <li className={`${style.socialMedia__box}`}>
-                                    <img src="/images/icon/social_media/linkedin_light.svg" className={`${style.socialMedia_image}`} />
+                                    <img src="/images/icon/social_media/linkedin_light.svg" className={`${style.socialMedia_image}`} alt="Linkedin Icon" />
                                     <span>Linkedin</span>
                                 </li>
                             </a>

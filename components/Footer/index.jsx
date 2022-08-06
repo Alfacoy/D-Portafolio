@@ -16,8 +16,8 @@ const Footer = () => {
                     <div>
                         <p className={`${style.footer__titleLinks}`}><b>Redes sociales</b></p>
                         <ul>
-                            <li><a className={`${style.footer__link}`} href="https://github.com/Alfacoy" target="_blank">Github</a></li>
-                            <li><a className={`${style.footer__link}`} href="https://www.linkedin.com/in/durand18/" target="_blank">Linkedin</a></li>
+                            <li><a className={`${style.footer__link}`} href="https://github.com/Alfacoy" target="_blank" rel='noopener noreferrer'>Github</a></li>
+                            <li><a className={`${style.footer__link}`} href="https://www.linkedin.com/in/durand18/" target="_blank" rel='noopener noreferrer'>Linkedin</a></li>
                         </ul>
                     </div>
                     <div>
