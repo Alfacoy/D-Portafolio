@@ -31,7 +31,7 @@ export default function Home() {
                     <h4>Solucionado</h4>
                     <ul>
                         <li>Se soluciona un problema visual del Menú y Footer que al acercar el cursor sobre un enlace este brillara sin haberlo tocado aún.</li>
-                        <li>Se agrega rel='noopener noreferrer' a los enlaces externos.</li>
+                        <li>Se agrega rel=noopener noreferrer a los enlaces externos.</li>
                     </ul>
                 </section>
             </article>
