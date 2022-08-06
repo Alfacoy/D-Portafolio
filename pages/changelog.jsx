@@ -9,7 +9,7 @@ export default function Home() {
                 <h1 className="g_title">Changelog</h1>
                 <hr />
                 <section className={style.changelog}>
-                    <h3><a>RoadToV1</a> - 1.0.0</h3> 
+                    <h3><a href="https://github.com/Alfacoy/D-Portafolio/pull/1" target="_blank">RoadToV1</a> - 1.0.0</h3> 
                     <i>[Mayor Update] - 2022/08/06</i>
                     <h4>Agregado</h4>
                     <ul>
