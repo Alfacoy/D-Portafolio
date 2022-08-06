@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-
 import style from './style.module.css';
 
 const Contact = () => {
@@ -25,13 +24,17 @@ const Contact = () => {
         setState('Loading');
         const response = await fetch(endpoint, options)
         const result = await response.json()
-        if (result.status === 'Success') {
+        if (result.status === 'Success' || result.status === 'Error') {
             setState('')
         }
 
         if(result.status === 'Success'){
             event.target.email.value = '';
             event.target.message.value = '';
+        }
+
+        if (result.status === 'Error') {
+            alert('Hubo un error al enviar el mail. Por favor, vuelva a intentarlo o envielo a briandurand1990@gmail.com')
         }
     }
     return(
@@ -53,7 +56,7 @@ const Contact = () => {
                         </button>
                     </form>
                     <div className={style.contact_socialMedia}>
-                        <p>Si te interesa, puedes buscarme en mis <b>redes sociales</b>.</p>
+                        <p>Si te interesa, puedes buscarme en mis <b className={`g_highlight__primary`}>redes sociales</b> <span>&#128227;</span>.</p>
                         <ul>
                             <a href='https://github.com/Alfacoy' target="_blank">
                                 <li className={`${style.socialMedia__box}`}>

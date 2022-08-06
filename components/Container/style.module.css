@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     grid-area: main;
+    margin-top: 3rem;
 }
 
 /*RESPONSIVE*/

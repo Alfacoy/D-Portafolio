@@ -4,17 +4,9 @@
     flex-direction: row;
     justify-content: center;
     place-items: center;
-    margin: 5rem auto 3rem auto;
 }
 
 /*TITLE*/
-.header__title {
-    color: #fff;
-    font-size: 2rem;
-    margin: 0;
-    text-transform: uppercase;
-}
-
 .header__title_night {
     color: #333;
 }
@@ -28,10 +20,6 @@
 }
 
 /*PARAGRAPH*/
-.header__paragraph {
-    font-size: 1.3rem;
-}
-
 .header__paragraph_highlight_blue {
     color: #0070F3;
 }

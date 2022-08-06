@@ -1,7 +1,7 @@
 .contact {
-    padding: 2rem 0;
     color: var(--text);
     background-color: #242526;
+    padding: 2rem 0;
 }
 
 .contact__container {

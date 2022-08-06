@@ -1,8 +1,10 @@
+/*VARIABLES*/
 :root {
   --blue: #0070F3;
   --text: #fff;
 }
 
+/*GENERAL*/
 html,
 body {
   padding: 0;
@@ -35,14 +37,20 @@ textarea {
   resize: none;
 }
 
-/*CLASSES*/
-/*CONTENT*/
-.g_container {
-  width: 85%;
-  margin: 0 auto;
+p{
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
-/*TITLES*/
+/*CLASSES*/
+  /*CONTAINERS*/
+.g_container {
+  width: 85%;
+  margin: 3rem auto 3rem auto;
+}
+
+  /*TITLES*/
 .g_title {
   color: #fff;
   font-size: 2rem;
@@ -50,7 +58,12 @@ textarea {
   text-transform: uppercase;
 }
 
-/*INPUTS*/
+  /*TEXT*/
+.g_highlight__primary {
+  color: var(--blue);
+}
+
+  /*INPUTS*/
 .g_input__box {
   padding-top: 1rem;
   width: 100%;
@@ -75,21 +88,20 @@ textarea {
 }
 
 
-/*BUTTONS*/
+  /*BUTTONS*/
 .button {
-  background-color: transparent;
   border: 2px solid var(--text);
   color: var(--text);
   cursor: pointer;
+  display: inline-block;
   font-weight: bold;
   padding: 1rem 3rem;
   margin: 1rem 0;
+  background-color: transparent;
 }
 
-
-
 /*RESPONSIVE*/
-/*MOBILE*/
+  /*MOBILE*/
 @media screen and (max-width: 799px) and (orientation:landscape) {
 
 }
@@ -98,7 +110,7 @@ textarea {
 
 }
 
-/*DESKTOP*/
+  /*DESKTOP*/
 @media screen and (min-width: 1200px) {
 
 }

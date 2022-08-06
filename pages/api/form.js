@@ -5,7 +5,7 @@ export default async function handler(req,res) {
     const {email,message} = req.body
     if (!email || !message) return res.status(404).json({ status: 'Error', message: 'No se puede enviar un mail sin datos.' })
     try {
-        await sendEmail(email,message)
+        await sendEmail(email, message);
         res.status(200).json({ status: 'Success' });
     } catch (error) {
         res.status(500).json({ status: 'Error' });
@@ -42,8 +42,8 @@ async function sendEmail(subject,content){
 
     try {
         const info = await trasporter.sendMail(mailOptions)
-        console.log(info)
+        return info;
     } catch (error) {
-        console.error(error)
+        return error;
     }
 }
