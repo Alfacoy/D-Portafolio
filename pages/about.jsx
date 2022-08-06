@@ -10,7 +10,10 @@ export default function About() {
 
     return (
         <>
-            <CustomHead title="Sobre mí | Full Stack Developer" index follow />
+            <CustomHead
+                title="Sobre mí | Full Stack Developer"
+                metaDescription="Te invito a que conozcas más de mi historia."
+                index follow />
             <article className={`g_container ${style.about}`}> 
                 <h1 className='g_title'>Sobre mí</h1>
                 <header className={`${style.about_callout}`}>
