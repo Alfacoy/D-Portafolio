@@ -1,10 +1,10 @@
 import {useEffect, useState} from "react";
 import Head from 'next/head';
 
-const CustomHead = ({title,index,follow, metaType, metaImage, metaImageAlt, metaUrl}) => {
+const CustomHead = ({ title, metaDescription,index,follow, metaType, metaImage, metaImageAlt, metaUrl}) => {
     const [robot,setRobot] = useState('');
-    const description = `Full Stack MERN & Salesforce Developer. Armo cosas que la gente pueda usar <3. Bienvenidos, un gusto conocerlos.`;
-    const image = metaImage || '';
+    const description = metaDescription || `Full Stack MERN & Salesforce Administrator. Armo cosas que la gente pueda usar <3. Bienvenidos, un gusto conocerlos.`;
+    const image = metaImage || '/images/wellcome/night.png';
     const imageAlt = metaImageAlt || 'Brian Durand Website';
     const facebookType = metaType || `website`;
     const urlContent = metaUrl || `https://www.durandbrian.com/`;

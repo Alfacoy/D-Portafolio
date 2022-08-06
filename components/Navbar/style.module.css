@@ -13,11 +13,14 @@
     color: #fff;
 }
 
-.navbar__links {
+.navbar > ul {
+    margin: 0;
+    padding: 0;
     color: #fff;
 }
 
-.navbar__links > a {
+.navbar__links > li {
+    display: inline-block;
     padding-left: 1rem;
 }
 
@@ -33,5 +36,15 @@
 
 /*DESKTOP*/
 @media screen and (min-width: 1200px){
-
+    :hover.navbar__link {
+        color: #0070F3;
+        text-decoration: underline;
+        transition-duration: .5s;
+        transition-timing-function: ease;
+    }
+    
+    .navbar__link:not(:hover) {
+        transition-duration: .5s;
+        transition-timing-function: ease;
+    }
 }

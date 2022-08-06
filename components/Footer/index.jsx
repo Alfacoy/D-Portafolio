@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import style from './style.module.css';
 import {useEffect, useState} from "react";
 
@@ -15,13 +16,21 @@ const Footer = () => {
                     <div>
                         <p className={`${style.footer__titleLinks}`}><b>Redes sociales</b></p>
                         <ul>
-                            <li className={`${style.footer__link}`}><a href="https://github.com/Alfacoy" target="_blank">Github</a></li>
-                            <li className={`${style.footer__link}`}><a href="https://www.linkedin.com/in/durand18/" target="_blank">Linkedin</a></li>
+                            <li><a className={`${style.footer__link}`} href="https://github.com/Alfacoy" target="_blank">Github</a></li>
+                            <li><a className={`${style.footer__link}`} href="https://www.linkedin.com/in/durand18/" target="_blank">Linkedin</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p className={`${style.footer__titleLinks}`}><b>Contenido</b></p>
+                        <ul>
+                            <li><Link href={"/about"}><a className={`${style.footer__link}`}>Sobre mí</a></Link></li>
+                            <li><Link href={"/#contact"}><a className={`${style.footer__link}`}>Contacto</a></Link></li>
+                            <li><Link href="/changelog"><a className={`${style.footer__link}`}>Changelog</a></Link></li>
                         </ul>
                     </div>
                 </div>
                 <div className={`${style.footer__copyright}`}>
-                    <p>Hecho con <span className={style.footer__hearth}>❤</span> por Brian Durand. Copyright © {year}</p>
+                    <p>Hecho con &#128150; por <b>Brian Durand</b>. Copyright © {year}.</p>
                 </div>
             </div>
         </footer>

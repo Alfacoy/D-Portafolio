@@ -1,0 +1,34 @@
+.about_callout { 
+    border: 1px solid #eee;
+    border-left-width: .5rem;
+    border-left-color: var(--blue);
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+}
+
+.subtitle {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/*RESPONSIVE*/
+/*MOBILE*/
+@media screen and (max-width: 799px) and (orientation:landscape) {
+
+}
+
+@media screen and (min-width: 800px) {
+    .about {
+        width: 75%;
+    }
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1200px) {
+    .about {
+        width: 50%;
+    }
+}

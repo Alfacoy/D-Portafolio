@@ -1,7 +1,7 @@
 .contact {
-    padding: 2rem 0;
     color: var(--text);
     background-color: #242526;
+    padding: 2rem 0;
 }
 
 .contact__container {
@@ -35,6 +35,11 @@
     padding: 0 0 0 2rem;
 }
 
+.socialMedia_image {
+    display: none;
+    padding-right: .3rem;
+}
+    
 /*RESPONSIVE*/
 /*MOBILE*/
 @media screen and (max-width: 799px) and (orientation:landscape) {
@@ -66,7 +71,24 @@
 
 /*DESKTOP*/
 @media screen and (min-width: 1200px) {
+    .socialMedia__box:hover {
+        background-color: #0070F3;
+        transition-duration: .5s;
+        transition-timing-function: ease;
+    }
 
+    .socialMedia__box:not(:hover) {
+        transition-duration: .5s;
+        transition-timing-function: ease;
+    }
+
+    .socialMedia__box:hover > img {
+        display: block;
+    }
+
+    .socialMedia__box:not(:hover) > img {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1400px) {
