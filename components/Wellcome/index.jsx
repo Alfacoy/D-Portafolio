@@ -12,7 +12,7 @@ const Wellcome = () => {
                 <div className={style.header__color_light}>
                     <p>
                         Actualmente vivo en <b>Buenos Aires</b> (Argentina) y me encuentro
-                        trabajando para <b>Integrity Seguros</b> como <strong className={`g_highlight__primary`}>Analista Programador Junior</strong> &#128187;.
+                        trabajando para <b>Cambalache Technologies</b> como <strong className={`g_highlight__primary`}>Salesforce Administrator</strong> &#128187;.
                     </p>
 
                     <p>
