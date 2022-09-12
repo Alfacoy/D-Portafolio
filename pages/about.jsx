@@ -3,8 +3,8 @@ import CustomHead from '../components/CustomHead';
 import style from '../styles/About.module.css';
 
 export default function About() {
-    const NOMBRE_PUESTO = 'Analista programador Junior';
-    const NOMBRE_EMPRESA = 'Integrity Seguros';
+    const NOMBRE_PUESTO = 'Salesforce Administrator';
+    const NOMBRE_EMPRESA = 'Cambalache Technologies';
     const TIEMPO_EN_PUESTO_ACTUAL = '1 año y 9 meses';
     const AÑOS_EN_TECNOLOGÍA = ' 4 años';
 
@@ -19,8 +19,8 @@ export default function About() {
                 <header className={`${style.about_callout}`}>
                     <h4 className={`${style.subtitle}`}>Introducción</h4>
                     <p>
-                        Antes que nada, un gusto que estes por acá y gracias por interesarte en mí &#128513;. Como ya sabrás, soy Brian y trabajo como <b className={`g_highlight__primary`}>{NOMBRE_PUESTO}</b> en <a href='https://integrityseguros.com.ar/' target="_blank" rel='noopener noreferrer'><b className={`g_highlight__primary`}>{NOMBRE_EMPRESA}</b></a> hace
-                        <b className={`g_highlight__primary`}> {TIEMPO_EN_PUESTO_ACTUAL}</b>. Actualmente vivo en <b className={`g_highlight__primary`}>Buenos Aires (Avellaneda - Argentina)</b>.
+                        Antes que nada, un gusto que estes por acá y gracias por interesarte en mí &#128513;. Como ya sabrás, soy Brian y trabajo como <b className={`g_highlight__primary`}>{NOMBRE_PUESTO}</b> en <a href='https://integrityseguros.com.ar/' target="_blank" rel='noopener noreferrer'><b className={`g_highlight__primary`}>{NOMBRE_EMPRESA}</b></a> {/* hace
+                        <b className={`g_highlight__primary`}> {TIEMPO_EN_PUESTO_ACTUAL}</b> */}. Actualmente vivo en <b className={`g_highlight__primary`}>Buenos Aires (Avellaneda - Argentina)</b>.
                     </p>
                     <p>
                         No siempre tuve en mente dedicar mí vida de lleno al desarrollo web, la realidad es que todo empezó hace
