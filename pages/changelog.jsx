@@ -9,6 +9,18 @@ export default function Home() {
                 <h1 className="g_title">Changelog</h1>
                 <hr />
                 <section className={style.changelog}>
+                    <h3><a href="" target="_blank" rel='noopener noreferrer'>LightsON</a></h3>
+                    <i>[Minor Update] - </i>
+                    <h4>Modificado</h4>
+                    <ul>
+                        <li>Cambiamos de empresa!!! &#127881; nuevo trabajo.</li>
+                    </ul>
+                    <h4>Removido</h4>
+                    <ul>
+                        <li>Se elimina temporalmente la permanencia en empleos para hacer luego un rework.</li>
+                    </ul>
+                </section>
+                <section className={style.changelog}>
                     <h3><a href="https://github.com/Alfacoy/D-Portafolio/pull/1" target="_blank" rel='noopener noreferrer'>RoadToV1</a> - 1.0.0</h3> 
                     <i>[Mayor Update] - 2022/08/06</i>
                     <h4>Agregado</h4>
