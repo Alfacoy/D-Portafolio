@@ -1,6 +1,10 @@
+import { useContext } from 'react';
+import themeContext from '../Theme';
 import style from './style.module.css';
 
 const Wellcome = () => {
+    const theme = useContext(themeContext)
+
     return(
         <header className={` ${style.header} g_container`}>
             <article>
@@ -30,7 +34,7 @@ const Wellcome = () => {
                 </div>
             </article>
             <article>
-                <img src="/images/wellcome/night.png" alt="Imágen en versión obscura." className={style.header__image} />
+                <img src={`/images/wellcome/${theme === 'dark' ? 'night' : 'day' }.png`} alt="Imágen en versión obscura." className={style.header__image} />
             </article>
         </header>
     )
