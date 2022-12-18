@@ -1,5 +1,5 @@
 .footer {
-    background-color: #303846;
+    background-color: var(--background_footer);
     padding: 1rem 0rem;
     grid-area: footer;
 }
@@ -17,7 +17,7 @@
 }
 
 .footer__titleLinks {
-    color: #fff;
+    color: var(--text_light);
     text-transform: uppercase;
 }
 
@@ -37,12 +37,12 @@
     display: inline-block;
 }
 :hover.footer__link {
-    color: #fff;
+    color: var(--text_light);
 }
 
 /*COPYRIGHT*/
 .footer__copyright {
-    color: #fff;
+    color: var(--text_light);
     text-align: center;
 }
 
@@ -52,7 +52,7 @@
 
 /*THEME*/
 .footer_light{
-    color: #fff;
+    color: var(--text_light);
 }
 
 /*RESPONSIVE*/
@@ -92,7 +92,7 @@
 @media screen and (min-width: 1200px){
 
     :hover.footer__link {
-        color: #0070F3;
+        color: var(--text_blue);
         text-decoration: underline;
         transition-duration: .5s;
         transition-timing-function: ease;

@@ -1,6 +1,10 @@
+import { useContext } from 'react';
+import themeContext from '../Theme';
 import style from './style.module.css';
 
 const Wellcome = () => {
+    const theme = useContext(themeContext)
+
     return(
         <header className={` ${style.header} g_container`}>
             <article>
@@ -23,14 +27,14 @@ const Wellcome = () => {
                     </p>
 
                     <a href="/curriculum.pdf" target="_blank" rel="noreferrer noopener" aria-label="Curriculum">
-                <span className={`${style.header__button}`}>
+                <span className={`${style.header__button} ${theme != 'dark' ?  style.header__button_night : null }`}>
                     Currículum
                 </span>
                     </a>
                 </div>
             </article>
             <article>
-                <img src="/images/wellcome/night.png" alt="Imágen en versión obscura." className={style.header__image} />
+                <img src={`/images/wellcome/${theme === 'dark' ? 'night' : 'day' }.png`} alt="Imágen en versión obscura." className={style.header__image} />
             </article>
         </header>
     )

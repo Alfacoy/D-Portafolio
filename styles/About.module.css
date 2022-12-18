@@ -1,17 +1,7 @@
-.about_callout { 
-    border: 1px solid #eee;
-    border-left-width: .5rem;
-    border-left-color: var(--blue);
-    padding: 1rem 1rem;
-    border-radius: 1rem;
-    margin: 2rem 0;
-}
-
 .subtitle {
-    color: #fff;
     font-size: 1.5rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
 }
 
 /*RESPONSIVE*/

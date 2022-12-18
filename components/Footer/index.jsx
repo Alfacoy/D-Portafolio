@@ -23,14 +23,14 @@ const Footer = () => {
                     <div>
                         <p className={`${style.footer__titleLinks}`}><b>Contenido</b></p>
                         <ul>
-                            <li><Link href={"/about"}><a className={`${style.footer__link}`}>Sobre mí</a></Link></li>
-                            <li><Link href={"/#contact"}><a className={`${style.footer__link}`}>Contacto</a></Link></li>
-                            <li><Link href="/changelog"><a className={`${style.footer__link}`}>Changelog</a></Link></li>
+                            <li><Link href={"/about"} className={`${style.footer__link}`}>Sobre mí</Link></li>
+                            <li><Link href={"/#contact"} className={`${style.footer__link}`}>Contacto</Link></li>
+                            <li><Link href={"/changelog"} className={`${style.footer__link}`}>Changelog</Link></li>
                         </ul>
                     </div>
                 </div>
                 <div className={`${style.footer__copyright}`}>
-                    <p>Hecho con &#128150; por <b>Brian Durand</b>. <span>Copyright © {year}.</span></p>
+                    <p>Hecho con &#128150; por <b><a className={`${style.footer__link}`} href="https://www.linkedin.com/in/durand18/" target="_blank" rel='noopener noreferrer'>Brian Durand</a></b>. <span>Copyright © {year}.</span></p>
                 </div>
             </div>
         </footer>

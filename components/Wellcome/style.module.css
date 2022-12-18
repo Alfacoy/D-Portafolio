@@ -7,13 +7,10 @@
 }
 
 /*TITLE*/
-.header__title_night {
-    color: #333;
-}
 
 /*SUBTITLE*/
 .header__subtitle {
-    color: #0070F3;
+    color: var(--text_blue);
     font-size: 3rem;
     margin: 0;
     text-transform: uppercase;
@@ -21,7 +18,7 @@
 
 /*PARAGRAPH*/
 .header__paragraph_highlight_blue {
-    color: #0070F3;
+    color: var(--text_blue);
 }
 
 /*IMAGE*/
@@ -32,28 +29,19 @@
 /*BUTTON*/
 .header__button {
     display: inline-block;
-    border: 2px solid white;
+    border: 2px solid var(--border_light);
     padding: 1rem 3rem;
     margin: 1rem 0;
     font-weight: bold;
 }
 
 .header__button_night {
-    border: 2px solid #333;
-    color: #333;
+    border: 2px solid var(--border_dark);
+    color: var(--text_dark);
 }
 
 :hover.header__button_night {
-    color: #fff;
-}
-
-/*THEME*/
-.header__color_light {
-    color: #fff;
-}
-
-.header__color_dark {
-    color: #333;
+    color: var(--text_light);
 }
 
 /*RESPONSIVE*/
@@ -76,7 +64,7 @@
     }
 
     .header__button:hover {
-        background-color: #0070F3;
+        background-color: var(--background_blue);
         transition-duration: 1s;
         transition-timing-function: ease;
     }

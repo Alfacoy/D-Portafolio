@@ -8,8 +8,31 @@ export default function Home() {
             <article className="g_container">
                 <h1 className="g_title">Changelog</h1>
                 <hr />
-                <section className={style.changelog}>
-                    <h3><a href="https://github.com/Alfacoy/D-Portafolio/pull/1" target="_blank" rel='noopener noreferrer'>RoadToV1</a> - 1.0.0</h3> 
+                <section className={`${style.changelog}`}>
+                    <h3 className="g_highlight__primary"><a href="https://github.com/Alfacoy/D-Portafolio/pull/2" target="_blank" rel='noopener noreferrer'>LightsON - 1.1.0</a></h3>
+                    <i>[Minor Update] - 2022/12/18</i>
+                    <h4>Agregado</h4>
+                    <ul>
+                        <li>Se agrega un Burguer Nav para dispositivos móviles y tablets.</li>
+                        <li>Se agregan los temas <i>Claro</i> y <i>Obscuro</i>.</li>
+                        <li>Se agrega una separación de línea entre cada versión nueva de Changelog.</li>
+                        <li>En donde dejo mi nombre como firma le adjunto un enlace al Linkedin.</li>
+                    </ul>
+                    <h4>Modificado</h4>
+                    <ul>
+                        <li>Cambiamos de empresa!!! &#127881; Tenemos un nuevo trabajo .</li>
+                        <li>Se le hace un pequeño refactor al CSS general de la web.</li>
+                        <li>Se actualiza a la versión 13 de Next.js.</li>
+                    </ul>
+                    <h4>Removido</h4>
+                    <ul>
+                        <li>Se elimina temporalmente la permanencia en empleos para hacer luego un rework.</li>
+                        <li>Se elimina la Introducción de la seccion “Sobre Mí”.</li>
+                    </ul>
+                </section>
+                <hr />
+                <section className={`${style.changelog}`}>
+                    <h3 className="g_highlight__primary"><a href="https://github.com/Alfacoy/D-Portafolio/pull/1" target="_blank" rel='noopener noreferrer'>RoadToV1 - 1.0.0</a></h3> 
                     <i>[Mayor Update] - 2022/08/06</i>
                     <h4>Agregado</h4>
                     <ul>

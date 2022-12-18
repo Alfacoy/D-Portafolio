@@ -15,17 +15,8 @@ export default function About() {
                 metaDescription="Te invito a que conozcas más de mi historia."
                 index follow />
             <article className={`g_container ${style.about}`}> 
-                <h1 className='g_title'>Sobre mí</h1>
-                <header className={`${style.about_callout}`}>
-                    <h4 className={`${style.subtitle}`}>Introducción</h4>
-                    <p>
-                        Antes que nada, un gusto que estes por acá y gracias por interesarte en mí &#128513;. Como ya sabrás, soy Brian y trabajo como <b className={`g_highlight__primary`}>{NOMBRE_PUESTO}</b> en <a href='https://integrityseguros.com.ar/' target="_blank" rel='noopener noreferrer'><b className={`g_highlight__primary`}>{NOMBRE_EMPRESA}</b></a> {/* hace
-                        <b className={`g_highlight__primary`}> {TIEMPO_EN_PUESTO_ACTUAL}</b> */}. Actualmente vivo en <b className={`g_highlight__primary`}>Buenos Aires (Avellaneda - Argentina)</b>.
-                    </p>
-                    <p>
-                        No siempre tuve en mente dedicar mí vida de lleno al desarrollo web, la realidad es que todo empezó hace
-                        <b className={`g_highlight__primary`}>{AÑOS_EN_TECNOLOGÍA}</b>. Dejen que les cuente una pequeña (o no tan pequeña) historia de cómo llegué hasta donde estoy hoy.
-                    </p>
+                <header>
+                    <h1 className='g_title'>Sobre mí</h1>
                 </header>
                 <section>
                     <h5 className={`${style.subtitle}`}>Inicios</h5>
@@ -103,7 +94,7 @@ export default function About() {
                     <h5 className={`${style.subtitle}`}>Lo que nos quedo</h5>
                     <p>
                         Con eso llegamos al fin de esta primera parte de la historia, pero todavía queda mucho más, como por ejemplo ¿Qué pasó con lo de turismo aventura?, ¿Cómo fue la transición de OCA a trabajar en tecnología?
-                        Bueno, si te interesa saber podes <Link href='/#contact'><a><b className={`g_highlight__primary`}>contactarme</b></a></Link> o tal vez en un futuro escriba sobre eso.
+                        Bueno, si te interesa saber podes <b className={`g_highlight__primary`}><Link href='/#contact'>contactarme</Link></b> o tal vez en un futuro escriba sobre eso.
                     </p>
                     <p>
                         Lo importante ahora, es vivir eso que todavía no está escrito. Queda seguir creciendo y crear  momentos con las personas que en verdad importan. Agradezco el trayecto que me tocó recorrer y estoy seguro que
@@ -118,8 +109,8 @@ export default function About() {
                 </section>
                 <footer>
                     <p>
-                        <strong className={`g_highlight__primary`}>Brian Durand</strong> <br />
-                        <span>Full Stack Developer</span>
+                        <strong className={`g_highlight__primary`}><a className={`${style.footer__link}`} href="https://www.linkedin.com/in/durand18/" target="_blank" rel='noopener noreferrer'>Brian Durand</a></strong> <br />
+                        <span><b>Full Stack Developer</b></span>
                     </p>
                 </footer>
             </article>
