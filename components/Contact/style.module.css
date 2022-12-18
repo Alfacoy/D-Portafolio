@@ -1,6 +1,6 @@
 .contact {
-    color: var(--text);
-    background-color: #242526;
+    color: var(--text_light);
+    background-color: var(--background_contact_dark);
     padding: 2rem 0;
 }
 
@@ -22,7 +22,7 @@
 
 .socialMedia__box {
     align-items: center;
-    border: 2px solid var(--text);
+    border: 2px solid var(--border_dark);
     display: flex;
     height: 5rem;
     justify-content: center;
@@ -70,13 +70,12 @@
         padding-top: 1rem;
         width: 40%;
     }
-
 }
 
 /*DESKTOP*/
 @media screen and (min-width: 1200px) {
     .socialMedia__box:hover {
-        background-color: #0070F3;
+        background-color: var(--background_blue);
         transition-duration: .5s;
         transition-timing-function: ease;
     }

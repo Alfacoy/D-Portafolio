@@ -27,7 +27,7 @@ const Wellcome = () => {
                     </p>
 
                     <a href="/curriculum.pdf" target="_blank" rel="noreferrer noopener" aria-label="Curriculum">
-                <span className={`${style.header__button}`}>
+                <span className={`${style.header__button} ${theme != 'dark' ?  style.header__button_night : null }`}>
                     Currículum
                 </span>
                     </a>

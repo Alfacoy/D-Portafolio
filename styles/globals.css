@@ -1,7 +1,17 @@
 /*VARIABLES*/
 :root {
-  --blue: #0070F3;
-  --text: #fff;
+  --text_blue: #0070F3;
+  --text_light: #fff;
+  --text_dark: #333;
+  --background_dark: #121212;
+  --background_light: #FFF;
+  --background_blue: #0070F3; 
+  --background_contact_dark: #242526;
+  --background_contact_light: #353738;
+  --background_footer: #303846;
+  --border_dark: #333;
+  --border_light: #fff;
+  --background_green: #0B5062;
 }
 
 /*GENERAL*/
@@ -11,9 +21,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #121212;
   height: 100vh;
-  color: var(--text);
 }
 
 * {
@@ -30,7 +38,6 @@ textarea {
 }
 
 p{
-  color: #fff;
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -44,7 +51,6 @@ p{
 
   /*TITLES*/
 .g_title {
-  color: #fff;
   font-size: 2rem;
   margin: 0;
   text-transform: uppercase;
@@ -52,7 +58,7 @@ p{
 
   /*TEXT*/
 .g_highlight__primary {
-  color: var(--blue);
+  color: var(--text_blue);
 }
 
   /*INPUTS*/
@@ -79,11 +85,25 @@ p{
   width: 100%;
 }
 
+  /*THEMES*/
+.dark {
+  background-color: var(--background_dark);
+  color: var(--text_light);
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.light {
+  background-color: var(--background_light);
+  color: var(--text_dark);
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
 
   /*BUTTONS*/
 .button {
-  border: 2px solid var(--text);
-  color: var(--text);
+  border: 2px solid var(--border_light);
+  color: var(--text_light);
   cursor: pointer;
   display: inline-block;
   font-weight: bold;
