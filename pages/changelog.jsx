@@ -9,6 +9,15 @@ export default function Home() {
                 <h1 className="g_title">Changelog</h1>
                 <hr />
                 <section className={`${style.changelog}`}>
+                    <h3 className="g_highlight__primary"><a href="https://github.com/Alfacoy/D-Portafolio/pull/2" target="_blank" rel='noopener noreferrer'>ShowTheMetrics - 1.2.1</a></h3>
+                    <i>[Minor Update] - 2022/12/18</i>
+                    <h4>Agregado</h4>
+                    <ul>
+                        <li>Se agrega Google Analytics de forma global en la web.</li>
+                    </ul>
+                </section>
+                <hr />
+                <section className={`${style.changelog}`}>
                     <h3 className="g_highlight__primary"><a href="https://github.com/Alfacoy/D-Portafolio/pull/2" target="_blank" rel='noopener noreferrer'>LightsON - 1.1.1</a></h3>
                     <i>[Minor Update] - 2022/12/18</i>
                     <h4>Agregado</h4>
