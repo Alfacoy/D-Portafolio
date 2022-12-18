@@ -27,7 +27,7 @@ export default function Home() {
                     <h4>Removido</h4>
                     <ul>
                         <li>Se elimina temporalmente la permanencia en empleos para hacer luego un rework.</li>
-                        <li>Se elimina la Introducción de la seccion 'Sobre Mí'.</li>
+                        <li>Se elimina la Introducción de la seccion “Sobre Mí”.</li>
                     </ul>
                 </section>
                 <hr />
