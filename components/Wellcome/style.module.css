@@ -40,9 +40,7 @@
     color: var(--text_dark);
 }
 
-:hover.header__button_night {
-    color: var(--text_light);
-}
+
 
 /*RESPONSIVE*/
 /*MOBILE*/
@@ -72,6 +70,10 @@
     .header__button:not(:hover){
         transition-duration: .7s;
         transition-timing-function: ease;
+    }
+
+    :hover.header__button_night {
+        color: var(--text_light);
     }
 
     .header__image {

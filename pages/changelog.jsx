@@ -9,7 +9,7 @@ export default function Home() {
                 <h1 className="g_title">Changelog</h1>
                 <hr />
                 <section className={`${style.changelog}`}>
-                    <h3 className="g_highlight__primary"><a href="https://github.com/Alfacoy/D-Portafolio/pull/2" target="_blank" rel='noopener noreferrer'>LightsON - 1.1.0</a></h3>
+                    <h3 className="g_highlight__primary"><a href="https://github.com/Alfacoy/D-Portafolio/pull/2" target="_blank" rel='noopener noreferrer'>LightsON - 1.1.1</a></h3>
                     <i>[Minor Update] - 2022/12/18</i>
                     <h4>Agregado</h4>
                     <ul>
@@ -23,6 +23,10 @@ export default function Home() {
                         <li>Cambiamos de empresa!!! &#127881; Tenemos un nuevo trabajo .</li>
                         <li>Se le hace un pequeño refactor al CSS general de la web.</li>
                         <li>Se actualiza a la versión 13 de Next.js.</li>
+                    </ul>
+                    <h4>Solucionado</h4>
+                    <ul>
+                        <li>Se corrije un error visual para dispositivos móviles que al presionar el botón Curriculum el texto desaparece hasta que se vuelve a presionar la pantalla.</li>
                     </ul>
                     <h4>Removido</h4>
                     <ul>
