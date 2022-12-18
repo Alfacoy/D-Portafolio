@@ -9,7 +9,7 @@ export default function Home() {
                 <h1 className="g_title">Changelog</h1>
                 <hr />
                 <section className={`${style.changelog}`}>
-                    <h3 className="g_highlight__primary"><a href="" target="_blank" rel='noopener noreferrer'>LightsON - 1.1.0</a></h3>
+                    <h3 className="g_highlight__primary"><a href="https://github.com/Alfacoy/D-Portafolio/pull/2" target="_blank" rel='noopener noreferrer'>LightsON - 1.1.0</a></h3>
                     <i>[Minor Update] - 2022/12/18</i>
                     <h4>Agregado</h4>
                     <ul>
@@ -27,7 +27,7 @@ export default function Home() {
                     <h4>Removido</h4>
                     <ul>
                         <li>Se elimina temporalmente la permanencia en empleos para hacer luego un rework.</li>
-                        <li>Se elimina la Introducción de la seccion "Sobre Mí".</li>
+                        <li>Se elimina la Introducción de la seccion 'Sobre Mí'.</li>
                     </ul>
                 </section>
                 <hr />
