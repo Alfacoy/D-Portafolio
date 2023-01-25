@@ -26,7 +26,7 @@ const Wellcome = () => {
                         <b>Mi Stack tecnológico:</b> Salesforce Administrator, MongoDB, Express, React, Node.
                     </p>
 
-                    <a href="/curriculum.pdf" target="_blank" rel="noreferrer noopener" aria-label="Curriculum">
+                    <a href="/CVDurand(2023).pdf" target="_blank" rel="noreferrer noopener" aria-label="Curriculum">
                 <span className={`${style.header__button} ${theme != 'dark' ?  style.header__button_night : null }`}>
                     Currículum
                 </span>
