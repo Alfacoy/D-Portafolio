@@ -10,20 +10,18 @@ const Wellcome = () => {
             <article>
                 <div>
                     <h1 className={`g_title`}><strong>Brian Durand</strong></h1>
-                    <h2 className={style.header__subtitle}><strong>Full Stack Developer</strong></h2>
+                    <h2 className={style.header__subtitle}><strong>Salesforce Admin</strong></h2>
                 </div>
 
                 <div className={style.header__color_light}>
                     <p>
-                        Actualmente vivo en <b>Buenos Aires</b> (Argentina) y me encuentro
-                        trabajando para <b>Cambalache Technologies</b> como <strong className={`g_highlight__primary`}>Salesforce Administrator</strong> &#128187;.
-                    </p>
-
-                    <p>
-                        Por la noche, curso en el <b>Instituto Técnologico Beltrán</b> el segundo año de la carrera de <strong className={`g_highlight__primary`}>Analista en Sistemas</strong>.
+                        Actualmente vivo en <b>Buenos Aires</b> (Argentina) y me desempeño como <strong className={`g_highlight__primary`}>Administrador de Salesforce</strong> &#128187; en <b>Cambalache Technologies</b> desde Septiembre 2022. 
                     </p>
                     <p>
-                        <b>Mi Stack tecnológico:</b> Salesforce Administrator, MongoDB, Express, React, Node.
+                        Tengo más de 5 años de experiencia en el rubro IT de los cuales hace 3 me encuentro trabajando en el ecosistema de Salesforce.
+                    </p>
+                    <p>
+                        <b>Conocimientos tecnológicos</b>: Salesforce Admin, SQL, Javascript y Next.
                     </p>
 
                     <a href="/curriculum.pdf" target="_blank" rel="noreferrer noopener" aria-label="Curriculum">

@@ -9,6 +9,25 @@ export default function Home() {
                 <h1 className="g_title">Changelog</h1>
                 <hr />
                 <section className={`${style.changelog}`}>
+                    <h3 className="g_highlight__primary"><a href="https://github.com/Alfacoy/D-Portafolio/pull/5" target="_blank" rel='noopener noreferrer'>NewContent - 1.3.1</a></h3>
+                    <i>[Minor Update] - 2023/04/15</i>
+                    <h4>Agregado</h4>
+                    <ul>
+                        <li>Se agrega el enlace de trailblazer en la sección Contacto y Footer.</li>
+                        <li>Se agrega la sección proyectos en el Footer.</li>
+                        <li>Se agrega el proyecto de Documentación en Footer.</li>
+                        <li>Se agrega el proyecto de Webtools en Footer.</li>
+                        <li>Ambos proyectos se agregan como subdominios al portafolio.</li>
+                    </ul>
+                    <h4>Modificado</h4>
+                    <ul>
+                        <li>Se modifica el texto de bienvenida.</li>
+                        <li>Se mejora la estructura del curriculum.</li>
+                        <li>Se hace una mejora en el tiempo de duración para la animación del hover en los botones de contacto.</li>
+                    </ul>
+                </section>
+                <hr />
+                <section className={`${style.changelog}`}>
                     <h3 className="g_highlight__primary"><a href="https://github.com/Alfacoy/D-Portafolio/pull/5" target="_blank" rel='noopener noreferrer'>ShowTheMetrics - 1.2.1</a></h3>
                     <i>[Minor Update] - 2022/12/18</i>
                     <h4>Agregado</h4>

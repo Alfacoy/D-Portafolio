@@ -12,7 +12,7 @@
 /*LINKS*/
 .footer__content {
     display: flex;
-    justify-content: space-between  ;
+    flex-direction: column;
     margin: 3rem 0;
 }
 
@@ -61,12 +61,12 @@
 
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
     .footer__content {
             display: flex;
+            flex-direction: row;
             justify-content: space-around;
         }
-    
 }
 
 @media screen and (min-width: 800px){
@@ -90,16 +90,15 @@
 
 /*DESKTOP*/
 @media screen and (min-width: 1200px){
-
     :hover.footer__link {
         color: var(--text_blue);
         text-decoration: underline;
-        transition-duration: .5s;
+        transition-duration: .7s;
         transition-timing-function: ease;
     }
 
     .footer__link:not(:hover){
-        transition-duration: .5s;
+        transition-duration: .7s;
         transition-timing-function: ease;
     }
 }
