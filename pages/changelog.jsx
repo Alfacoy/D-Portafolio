@@ -4,7 +4,7 @@ import style from '../styles/Changelog.module.css';
 export default function Home() {
     return (
         <>
-            <CustomHead title="Changelog | Full Stack Developer" follow />
+            <CustomHead title="Changelog | Brian Durand" follow />
             <article className="g_container">
                 <h1 className="g_title">Changelog</h1>
                 <hr />
@@ -24,6 +24,7 @@ export default function Home() {
                         <li>Se modifica el texto de bienvenida.</li>
                         <li>Se mejora la estructura del curriculum.</li>
                         <li>Se hace una mejora en el tiempo de duración para la animación del hover en los botones de contacto.</li>
+                        <li>Ligeros cambios en la metadata.</li>
                     </ul>
                 </section>
                 <hr />

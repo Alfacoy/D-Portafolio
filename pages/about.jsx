@@ -11,7 +11,7 @@ export default function About() {
     return (
         <>
             <CustomHead
-                title="Sobre mí | Full Stack Developer"
+                title="Sobre mí | Brian Durand"
                 metaDescription="Te invito a que conozcas más de mi historia."
                 index follow />
             <article className={`g_container ${style.about}`}> 

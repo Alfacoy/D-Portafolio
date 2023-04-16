@@ -10,7 +10,7 @@ const Container = ({ children }) => {
 
     return (  
         <ThemeContext.Provider value={theme}>
-            <CustomHead title="Brian Durand | Full Stack Developer" index follow/>
+            <CustomHead title="Inicio | Brian Durand" index follow/>
             <div className={`${style.container} ${theme}`}>
                 <Navbar themeController={setTheme}/>
                 <main className={`${style.main}`}>
