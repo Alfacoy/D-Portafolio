@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 const CustomHead = ({ title, metaDescription,index,follow, metaType, metaImage, metaImageAlt, metaUrl}) => {
     const [robot,setRobot] = useState('');
-    const description = metaDescription || `Full Stack MERN & Salesforce Administrator. Armo cosas que la gente pueda usar <3. Bienvenidos, un gusto conocerlos.`;
+    const description = metaDescription || `Salesforce Administrator. Armo cosas que la gente pueda usar <3. Bienvenidos, un gusto conocerlos.`;
     const image = metaImage || '/images/wellcome/night.png';
     const imageAlt = metaImageAlt || 'Brian Durand Website';
     const facebookType = metaType || `website`;
