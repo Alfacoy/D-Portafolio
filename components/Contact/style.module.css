@@ -43,6 +43,10 @@
     display: none;
     padding-right: .3rem;
 }
+
+.socialMedia_image__size {
+    width: 5%;
+}
     
 /*RESPONSIVE*/
 /*MOBILE*/
@@ -76,12 +80,12 @@
 @media screen and (min-width: 1200px) {
     .socialMedia__box:hover {
         background-color: var(--background_blue);
-        transition-duration: .5s;
+        transition-duration: 1.5s;
         transition-timing-function: ease;
     }
 
     .socialMedia__box:not(:hover) {
-        transition-duration: .5s;
+        transition-duration: 1.5s;
         transition-timing-function: ease;
     }
 

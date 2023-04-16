@@ -14,8 +14,16 @@ const Footer = () => {
             <div className={`${style.footer__container}`}>
                 <div className={`${style.footer__content}`}>
                     <div>
+                        <p className={`${style.footer__titleLinks}`}><b>Proyectos</b></p>
+                        <ul>
+                            <li><a className={`${style.footer__link}`} href="https://www.docs.durandbrian.com/" target="_blank" rel='noopener noreferrer'>Mi documentación</a></li>
+                            <li><a className={`${style.footer__link}`} href="https://www.tools.durandbrian.com/" target="_blank" rel='noopener noreferrer'>WebTools</a></li>
+                        </ul>
+                    </div>
+                    <div>
                         <p className={`${style.footer__titleLinks}`}><b>Redes sociales</b></p>
                         <ul>
+                            <li><a className={`${style.footer__link}`} href="https://trailblazer.me/id/briandurand" target="_blank" rel='noopener noreferrer'>Trailblazer</a></li>
                             <li><a className={`${style.footer__link}`} href="https://github.com/Alfacoy" target="_blank" rel='noopener noreferrer'>Github</a></li>
                             <li><a className={`${style.footer__link}`} href="https://www.linkedin.com/in/durand18/" target="_blank" rel='noopener noreferrer'>Linkedin</a></li>
                         </ul>

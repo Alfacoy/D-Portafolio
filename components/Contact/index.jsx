@@ -58,6 +58,12 @@ const Contact = () => {
                     <div className={style.contact_socialMedia}>
                         <p>Si te interesa, puedes buscarme en mis <b className={`g_highlight__primary`}>redes sociales</b> <span>&#128227;</span>.</p>
                         <ul>
+                            <a href='https://trailblazer.me/id/briandurand' target="_blank" rel='noopener noreferrer'>
+                                <li className={`${style.socialMedia__box}`}>
+                                    <img src="/images/icon/social_media/trailhead.svg" className={`${style.socialMedia_image} ${style.socialMedia_image__size}`} alt="Salesforce Icon" />
+                                    <span>Trailblazer</span>
+                                </li>
+                            </a>
                             <a href='https://github.com/Alfacoy' target="_blank" rel='noopener noreferrer'>
                                 <li className={`${style.socialMedia__box}`}>
                                     <img src="/images/icon/social_media/github_light.svg" className={`${style.socialMedia_image}`} alt="Github Icon"/>
