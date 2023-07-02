@@ -1,10 +1,10 @@
 import { useContext } from 'react';
+import Link from 'next/link';
 import themeContext from '../Theme';
 import style from './style.module.css';
 
 const Wellcome = () => {
     const theme = useContext(themeContext)
-
     return(
         <header className={` ${style.header} g_container`}>
             <article>
@@ -13,26 +13,24 @@ const Wellcome = () => {
                     <h2 className={style.header__subtitle}><strong>Salesforce Admin</strong></h2>
                 </div>
 
-                <div className={style.header__color_light}>
+                <div>
                     <p>
                         Actualmente vivo en <b>Buenos Aires</b> (Argentina) y me desempeño como <strong className={`g_highlight__primary`}>Administrador de Salesforce</strong> &#128187; en <b>Cambalache Technologies</b> desde Septiembre 2022. 
                     </p>
                     <p>
                         Tengo más de 5 años de experiencia en el rubro IT de los cuales hace 3 me encuentro trabajando en el ecosistema de Salesforce.
                     </p>
-                    <p>
-                        <b>Conocimientos tecnológicos</b>: Salesforce Admin, SQL, Javascript y Next.
-                    </p>
-
-                    <a href="/curriculum.pdf" target="_blank" rel="noreferrer noopener" aria-label="Curriculum">
-                <span className={`${style.header__button} ${theme != 'dark' ?  style.header__button_night : null }`}>
-                    Currículum
-                </span>
-                    </a>
+                    <div>
+                        <Link href="/curriculum.pdf" target="_blank" rel="noreferrer noopener" aria-label="Curriculum">
+                            <span className={`${style.header__button} ${theme != 'dark' ?  style.header__button_night : null }`}>
+                                Currículum
+                            </span>
+                        </Link>
+                    </div>
                 </div>
             </article>
             <article>
-                <img src={`/images/wellcome/${theme === 'dark' ? 'night' : 'day' }.png`} alt="Imágen en versión obscura." className={style.header__image} />
+                <img src={`/images/wellcome/${theme === 'dark' ? 'night' : 'day' }.png`} alt={theme === 'dark' ? 'Imagen versión obscura.' : 'Imagen versión clara.' } className={style.header__image} />
             </article>
         </header>
     )

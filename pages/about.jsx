@@ -91,7 +91,7 @@ export default function About() {
                     </p>
                 </section>
                 <section>
-                    <h5 className={`${style.subtitle}`}>Lo que nos quedo</h5>
+                    <h5 className={`${style.subtitle}`}>Lo que nos quedó</h5>
                     <p>
                         Con eso llegamos al fin de esta primera parte de la historia, pero todavía queda mucho más, como por ejemplo ¿Qué pasó con lo de turismo aventura?, ¿Cómo fue la transición de OCA a trabajar en tecnología?
                         Bueno, si te interesa saber podes <b className={`g_highlight__primary`}><Link href='/#contact'>contactarme</Link></b> o tal vez en un futuro escriba sobre eso.
@@ -109,7 +109,7 @@ export default function About() {
                 </section>
                 <footer>
                     <p>
-                        <strong className={`g_highlight__primary`}><a className={`${style.footer__link}`} href="https://www.linkedin.com/in/durand18/" target="_blank" rel='noopener noreferrer'>Brian Durand</a></strong> <br />
+                        <strong className={`g_highlight__primary`}><a href="https://www.linkedin.com/in/durand18/" target="_blank" rel='noopener noreferrer'>Brian Durand</a></strong> <br />
                         <span><b>Full Stack Developer</b></span>
                     </p>
                 </footer>

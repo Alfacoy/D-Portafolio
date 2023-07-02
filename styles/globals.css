@@ -1,18 +1,46 @@
 /*VARIABLES*/
 :root {
+  /*DARK THEME*/
+  --background_dark: #262626;
+  --section_dark: #303846;
+  /* --section_dark: #212121 */;
+  --text_light: #CCCCCC;
+  /*LIGHT THEME*/
+  --background_light: #F8F8FA ;
+  --section_light: #ECEFF4;
+  --text_dark: #333333;
+  /*TEXTS*/
+  --main_highlight: #007BFF;
+  --secondary_highlight: #FFAA2A;
+  --white: #fff;
+  --black: #000;
+  /*BACKGROUNDS*/
+  --background_blue: #0070F3;
+  /*BORDERS*/
+  --border_blue: #007BFF; 
+  /*FOOTER*/
+  --background_footer: #1C1C1C;
+  /*NAVBAR*/
+  --navbar: rgba(36,37,38,0.9);
+  /*BORDERS*/
+  --border_dark: #262626;
+  --border_light: #F8F8FA;
+}
+
+/* :root {
+  --background_dark: #121212;
+  --background_light: #FFF;
   --text_blue: #0070F3;
   --text_light: #fff;
   --text_dark: #333;
-  --background_dark: #121212;
-  --background_light: #FFF;
   --background_blue: #0070F3; 
   --background_contact_dark: #242526;
   --background_contact_light: #353738;
   --background_footer: #303846;
+  --background_green: #0B5062;
   --border_dark: #333;
   --border_light: #fff;
-  --background_green: #0B5062;
-}
+} */
 
 /*GENERAL*/
 html,
@@ -58,7 +86,11 @@ p{
 
   /*TEXT*/
 .g_highlight__primary {
-  color: var(--text_blue);
+  color: var(--main_highlight);
+}
+
+.g_highlight__secondary {
+  color: var(--secondary_highlight);
 }
 
   /*INPUTS*/
@@ -112,6 +144,19 @@ p{
   background-color: transparent;
 }
 
+:hover.button {
+  background-color: var(--background_blue);
+  transition-duration: 1.5s;
+  transition-timing-function: ease;
+  color: var(--white);
+  font-weight: bold;
+}
+
+.button:not(:hover){
+  transition-duration: 1.5s;
+  transition-timing-function: ease;
+}
+
 /*RESPONSIVE*/
   /*MOBILE*/
 @media screen and (max-width: 799px) and (orientation:landscape) {
@@ -124,7 +169,16 @@ p{
 
   /*DESKTOP*/
 @media screen and (min-width: 1200px) {
-
+  a:hover {
+      color: var(--main_highlight);
+      transition-duration: .7s;
+      transition-timing-function: ease;
+      text-decoration: none;
+  }
+  a:not(hover) {
+    transition-duration: .7s;
+    transition-timing-function: ease;
+  }
 }
 
 @media screen and (min-width: 1400px) {

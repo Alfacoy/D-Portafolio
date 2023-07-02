@@ -1,4 +1,4 @@
-import { useState, useContext, useEffect } from "react";
+import { useState, useContext } from "react";
 import Link from "next/link";
 import ThemeContext from "../Theme";
 import style from './style.module.css';
@@ -42,6 +42,7 @@ const Navbar = ({themeController}) => {
                 <div className={`${style.navbar__content}`}>
                     <ul className={`${style.navbar__links} ${!isActive ? `${style.navbar__hide}` : null }`}>
                         <li><Link href="/about" onClick={handleClickLink} className={`${style.navbar__link}`}>Sobre Mí</Link></li>
+                        <li><Link href="/skills" onClick={handleClickLink} className={`${style.navbar__link}`}>Habilidades</Link></li>
                         <li><Link href="/#contact" onClick={handleClickLink} className={`${style.navbar__link}`}>Contacto</Link></li>
                     </ul>
                 </div>

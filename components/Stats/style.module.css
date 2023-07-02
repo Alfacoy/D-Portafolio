@@ -1,0 +1,20 @@
+.stats {
+    background-color: var(--section_light); 
+    text-align: center;
+    color: var(--text_dark);
+    padding: 4rem 0;
+}
+
+
+.black {
+    background-color: var(--section_dark);
+    color: var(--text_light);
+}
+
+.stats_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 80%;
+}

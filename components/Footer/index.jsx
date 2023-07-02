@@ -10,7 +10,7 @@ const Footer = () => {
     },[])
 
     return(
-        <footer className={`${style.footer} ${style.footer_light}`}>
+        <footer className={`${style.footer}`}>
             <div className={`${style.footer__container}`}>
                 <div className={`${style.footer__content}`}>
                     <div>
@@ -32,6 +32,7 @@ const Footer = () => {
                         <p className={`${style.footer__titleLinks}`}><b>Contenido</b></p>
                         <ul>
                             <li><Link href={"/about"} className={`${style.footer__link}`}>Sobre mí</Link></li>
+                            <li><Link href={"/skills"} className={`${style.footer__link}`}>Habilidades</Link></li>
                             <li><Link href={"/#contact"} className={`${style.footer__link}`}>Contacto</Link></li>
                             <li><Link href={"/changelog"} className={`${style.footer__link}`}>Changelog</Link></li>
                         </ul>

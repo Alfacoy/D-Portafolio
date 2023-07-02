@@ -1,11 +1,10 @@
 .navbar {
-    /* background-color: #242526; */
-    background-color: rgba(36,37,38,0.9);
+    background-color: var(--navbar);
     grid-area: navbar;
     padding: 1rem 1rem;
     position: fixed;
     width: 100%;
-    color: var(--text_light);
+    color: var(--white);
     font-weight: bold;
 }
 
@@ -25,12 +24,13 @@
 }
 
 .navbar__brand {
-    color: var(--text_light);
+    color: var(--white);
     font-size: 1.2rem;
 }
 
 .navbar__toogle {
     margin-left: 1rem;
+    cursor: pointer;
 }
 
 /*CONTENT*/
@@ -75,11 +75,11 @@
     .navbar__link {
         padding-top: 0rem;
     }
+
     .navbar__links > li {
         display: inline-block;
         padding-left: 1rem;
     }
-
 }
 
 /*DESKTOP*/
@@ -88,9 +88,12 @@
        width: 85%;
     }
 
-    :hover.navbar__link {
-        color: var(--text_blue);
-        text-decoration: underline;
+   .navbar__brand > a:hover {
+        color: var(--secondary_highlight);
+    }
+
+    .navbar__link:hover {
+        color: var(--secondary_highlight);
         transition-duration: .5s;
         transition-timing-function: ease;
     }
