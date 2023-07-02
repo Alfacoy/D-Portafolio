@@ -1,5 +1,6 @@
 .footer {
     background-color: var(--background_footer);
+    color: var(--text_light);
     padding: 1rem 0rem;
     grid-area: footer;
 }
@@ -17,7 +18,6 @@
 }
 
 .footer__titleLinks {
-    color: var(--text_light);
     text-transform: uppercase;
 }
 
@@ -36,23 +36,14 @@
     padding-bottom: .5rem;
     display: inline-block;
 }
-:hover.footer__link {
-    color: var(--text_light);
-}
 
 /*COPYRIGHT*/
 .footer__copyright {
-    color: var(--text_light);
     text-align: center;
 }
 
 .footer__copyright>p>span {
     display: block;
-}
-
-/*THEME*/
-.footer_light{
-    color: var(--text_light);
 }
 
 /*RESPONSIVE*/
@@ -91,8 +82,7 @@
 /*DESKTOP*/
 @media screen and (min-width: 1200px){
     :hover.footer__link {
-        color: var(--text_blue);
-        text-decoration: underline;
+        color: var(--secondary_highlight);
         transition-duration: .7s;
         transition-timing-function: ease;
     }

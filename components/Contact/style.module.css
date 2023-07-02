@@ -1,6 +1,4 @@
-.contact {
-    color: var(--text_light);
-    background-color: var(--background_contact_dark);
+.contact{
     padding: 2rem 0;
 }
 
@@ -20,13 +18,22 @@
     padding: 0;
 }
 
-.socialMedia__box {
+.socialMedia__box{
     align-items: center;
     border: 2px solid var(--border_dark);
     display: flex;
     height: 5rem;
     justify-content: center;
     margin-bottom: 1rem;
+}
+
+:hover.socialMedia__box > span {
+    font-weight: bold;
+    color: var(--white);
+}
+
+.socialMedia__box_light {
+    border: 2px solid var(--border_light);
 }
 
 .contact__form__box {
@@ -37,6 +44,11 @@
 
 .contact__form__container__box:last-child {
     padding: 0 0 0 2rem;
+}
+
+.button_night {
+    border: 2px solid var(--border_dark);
+    color: var(--text_dark)
 }
 
 .socialMedia_image {

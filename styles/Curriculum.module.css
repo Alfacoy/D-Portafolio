@@ -1,0 +1,141 @@
+.curriculum {
+    padding: 3rem 0;
+}
+
+.markOnDetails > summary {
+    color: var(--main_highlight);
+}
+
+/*PERSONAL INFORMATION*/
+.curriculum__personal {
+    border-bottom: 3px solid var(--text_light);
+    padding: 0 0 1rem 0;
+}
+
+.curriculum__personal__information {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.curriculum__personal__information > p {
+    margin: 0;
+}
+
+.curriculum__personal__image_center {
+    display: flex;
+    justify-content: center;
+}
+
+.curriculum__personal__image {
+    border-radius: 50%;
+    max-width: 80%;
+}
+
+.curriculum__personal > details  {
+    margin: .5rem 0;
+}
+
+/*LABORAL INFORMATION*/
+.curriculum__laboral {
+    padding: 1rem 0 0 0;
+}
+
+.curriculum__laboral > details {
+    margin: .5rem 0;
+}
+
+.curriculum__laboral__jobsList {
+    padding-left: .5rem;
+}
+
+.curriculum__laboral__jobsList > li{
+    list-style: none;
+    padding: .5rem 0;
+}
+
+.curriculum__laboral__jobContent {
+    padding: 1rem 0;
+}
+
+.curriculum__laboral__tagsBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.curriculum__laboral__tag {
+    align-self: center;
+    border-radius: 3px;
+    background-color: var(--main_highlight);
+    display: inline-block;
+    font-weight: bold;
+    margin: .2rem .2rem;
+    padding: 0 .3rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.curriculum__laboral__jobDescription {
+ margin-top: .5rem;
+}
+
+.curriculum__laboral__jobDescription__title {
+    text-transform: uppercase;
+    color: var(--secondary_highlight);
+}
+
+.curriculum__laboral__jobDescription > p {
+    margin-top: 0;
+}
+
+
+
+/*RESPONSIVE*/
+/*MOBILE*/
+@media screen and (max-width: 799px) and (orientation:landscape) {
+
+}
+
+@media screen and (min-width: 400px) {
+    .curriculum__personal__image {
+        max-width: 250px;
+    }
+} 
+  
+@media screen and (min-width: 768px) {
+    .curriculum {
+        display: flex;
+    }
+
+    /*PERSONAL INFORMATION*/
+    .curriculum__personal {
+        border-bottom: none;
+        border-right: 3px solid var(--text_light);
+        padding-right: 2rem;
+    }
+
+    .curriculum__personal > details {
+        margin: 1rem 0;
+    }
+
+    /*LABORAL INFORMATION*/
+    .curriculum__laboral {
+        padding: 0 0 0 2rem;
+    }
+
+    .curriculum__laboral > details {
+        margin: 2rem 0;
+    }
+}
+  
+/*DESKTOP*/
+@media screen and (min-width: 1200px) {
+    /*PERSONAL INFORMATION*/
+    .curriculum__personal {
+        padding-right: 3rem;
+    }
+
+    /*LABORAL INFORMATION*/
+    .curriculum__laboral {
+        padding: 0 0 0 3rem;
+    }
+}

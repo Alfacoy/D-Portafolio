@@ -9,6 +9,21 @@ export default function Home() {
                 <h1 className="g_title">Changelog</h1>
                 <hr />
                 <section className={`${style.changelog}`}>
+                    <h3 className="g_highlight__primary"><a href="https://github.com/Alfacoy/D-Portafolio/pull/6" target="_blank" rel='noopener noreferrer'>ShowTheSkills - 1.4.1</a></h3>
+                    <i>[Minor Update] - 2023/06/19</i>
+                    <h4>Agregado</h4>
+                    <ul>
+                        <li>Se agrega una nueva sección con nuestras habilidades.</li>
+                        <li>Se trabaja en una nueva paleta de colores.</li>
+                    </ul>
+                    <h4>Modificado</h4>
+                    <ul>
+                        <li>Se re trabaja el CSS en base a la nueva paleta de colores.</li>
+                        <li>Se corrigen algunos acentos.</li>
+                    </ul>
+                </section>
+                <hr />
+                <section className={`${style.changelog}`}>
                     <h3 className="g_highlight__primary"><a href="https://github.com/Alfacoy/D-Portafolio/pull/6" target="_blank" rel='noopener noreferrer'>NewContent - 1.3.1</a></h3>
                     <i>[Minor Update] - 2023/04/15</i>
                     <h4>Agregado</h4>

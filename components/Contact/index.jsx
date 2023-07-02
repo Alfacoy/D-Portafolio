@@ -1,8 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import { useContext } from 'react';
+import themeContext from '../Theme';
 import style from './style.module.css';
 
 const Contact = () => {
     const [state, setState] = useState('');
+    const theme = useContext(themeContext);
     
     async function handleSubmit(event){
         event.preventDefault();
@@ -51,7 +54,7 @@ const Contact = () => {
                             <label>Mensaje</label>
                             <textarea className='textarea' id="message" name="message" disabled={state === 'Loading' ? true : false} required />
                         </div>
-                        <button type="submit" className={`button`} disabled={state === 'Loading' ? true : false}>
+                        <button type="submit" className={`button ${theme != 'dark' ?  style.button_night : null }`} disabled={state === 'Loading' ? true : false}>
                             {state === 'Loading' ? 'Espere' : 'Enviar'}
                         </button>
                     </form>
@@ -59,19 +62,19 @@ const Contact = () => {
                         <p>Si te interesa, puedes buscarme en mis <b className={`g_highlight__primary`}>redes sociales</b> <span>&#128227;</span>.</p>
                         <ul>
                             <a href='https://trailblazer.me/id/briandurand' target="_blank" rel='noopener noreferrer'>
-                                <li className={`${style.socialMedia__box}`}>
+                                <li className={`${style.socialMedia__box} ${theme == 'dark' ? `${style.socialMedia__box_light}` : null}`}>
                                     <img src="/images/icon/social_media/trailhead.svg" className={`${style.socialMedia_image} ${style.socialMedia_image__size}`} alt="Salesforce Icon" />
                                     <span>Trailblazer</span>
                                 </li>
                             </a>
                             <a href='https://github.com/Alfacoy' target="_blank" rel='noopener noreferrer'>
-                                <li className={`${style.socialMedia__box}`}>
+                                <li className={`${style.socialMedia__box} ${theme == 'dark' ? `${style.socialMedia__box_light}` : null}`}>
                                     <img src="/images/icon/social_media/github_light.svg" className={`${style.socialMedia_image}`} alt="Github Icon"/>
                                      <span>Github</span>
                                 </li>
                             </a>
                             <a href='https://www.linkedin.com/in/durand18/' target="_blank" rel='noopener noreferrer'>
-                                <li className={`${style.socialMedia__box}`}>
+                                <li className={`${style.socialMedia__box} ${theme == 'dark' ? `${style.socialMedia__box_light}` : null}`}>
                                     <img src="/images/icon/social_media/linkedin_light.svg" className={`${style.socialMedia_image}`} alt="Linkedin Icon" />
                                     <span>Linkedin</span>
                                 </li>
