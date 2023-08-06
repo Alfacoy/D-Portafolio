@@ -10,12 +10,12 @@ const Wellcome = () => {
             <article>
                 <div>
                     <h1 className={`g_title`}><strong>Brian Durand</strong></h1>
-                    <h2 className={style.header__subtitle}><strong>Salesforce Admin</strong></h2>
+                    <h2 className={style.header__subtitle}><strong>Salesforce Consultant</strong></h2>
                 </div>
 
                 <div>
                     <p>
-                        Actualmente vivo en <b>Buenos Aires</b> (Argentina) y me desempeño como <strong className={`g_highlight__primary`}>Administrador de Salesforce</strong> &#128187; en <b>Cambalache Technologies</b> desde Septiembre 2022. 
+                        Actualmente vivo en <b>Buenos Aires</b> (Argentina) y me desempeño como <strong className={`g_highlight__primary`}>Consultor de Salesforce</strong> &#128187; en <b>PWC Argentina</b> desde Julio 2023. 
                     </p>
                     <p>
                         Tengo más de 5 años de experiencia en el rubro IT de los cuales hace 3 me encuentro trabajando en el ecosistema de Salesforce.
