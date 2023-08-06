@@ -134,6 +134,24 @@ const Curriculum = () => {
                         <ul className={style.curriculum__laboral__jobsList}>
                             <li>
                                 <details data-type="job">
+                                    <summary>PWC Argentina<br /> <i>[Julio. 2023 - Actualidad]</i></summary>
+                                    <div className={style.curriculum__laboral__jobContent}>
+                                        <div className={style.curriculum__laboral__tagsBox}>
+                                            <span className={style.curriculum__laboral__tag}>Salesforce Admin</span>
+                                            <span className={style.curriculum__laboral__tag}>SQL</span>
+                                            <span className={style.curriculum__laboral__tag}>Jira</span>
+                                        </div>
+                                        <div className={style.curriculum__laboral__jobDescription}>
+                                            <b className={style.curriculum__laboral__jobDescription__title}>Consultor de Salesforce</b>
+                                            <p>
+                                                Pendiente de redactar.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </details>
+                            </li>
+                            <li>
+                                <details data-type="job">
                                     <summary>Cambalache Technologies<br /> <i>[Sep. 2022 - Actualidad]</i></summary>
                                     <div className={style.curriculum__laboral__jobContent}>
                                         <div className={style.curriculum__laboral__tagsBox}>
