@@ -17,7 +17,6 @@ const Footer = () => {
                         <p className={`${style.footer__titleLinks}`}><b>Proyectos</b></p>
                         <ul>
                             <li><a className={`${style.footer__link}`} href="https://www.docs.durandbrian.com/" target="_blank" rel='noopener noreferrer'>Mi documentación</a></li>
-                            <li><a className={`${style.footer__link}`} href="https://www.tools.durandbrian.com/" target="_blank" rel='noopener noreferrer'>WebTools</a></li>
                         </ul>
                     </div>
                     <div>
