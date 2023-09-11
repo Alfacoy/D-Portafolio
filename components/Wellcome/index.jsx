@@ -21,7 +21,7 @@ const Wellcome = () => {
                         Tengo más de 5 años de experiencia en el rubro IT de los cuales hace 3 me encuentro trabajando en el ecosistema de Salesforce.
                     </p>
                     <div>
-                        <Link href="/curriculum.pdf" target="_blank" rel="noreferrer noopener" aria-label="Curriculum">
+                        <Link href="/CV Durand Brian.pdf" target="_blank" rel="noreferrer noopener" aria-label="Curriculum">
                             <span className={`${style.header__button} ${theme != 'dark' ?  style.header__button_night : null }`}>
                                 Currículum
                             </span>

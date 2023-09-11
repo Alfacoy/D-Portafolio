@@ -24,7 +24,7 @@ const Footer = () => {
                         <ul>
                             <li><a className={`${style.footer__link}`} href="https://trailblazer.me/id/briandurand" target="_blank" rel='noopener noreferrer'>Trailblazer</a></li>
                             <li><a className={`${style.footer__link}`} href="https://github.com/Alfacoy" target="_blank" rel='noopener noreferrer'>Github</a></li>
-                            <li><a className={`${style.footer__link}`} href="https://www.linkedin.com/in/durand18/" target="_blank" rel='noopener noreferrer'>Linkedin</a></li>
+                            <li><a className={`${style.footer__link}`} href="https://www.linkedin.com/in/durandsalesforce/" target="_blank" rel='noopener noreferrer'>Linkedin</a></li>
                         </ul>
                     </div>
                     <div>
@@ -38,7 +38,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={`${style.footer__copyright}`}>
-                    <p>Hecho con &#128150; por <b><a className={`${style.footer__link}`} href="https://www.linkedin.com/in/durand18/" target="_blank" rel='noopener noreferrer'>Brian Durand</a></b>. <span>Copyright © {year}.</span></p>
+                    <p>Hecho con &#128150; por <b><a className={`${style.footer__link}`} href="https://www.linkedin.com/in/durandsalesforce/" target="_blank" rel='noopener noreferrer'>Brian Durand</a></b>. <span>Copyright © {year}.</span></p>
                 </div>
             </div>
         </footer>

@@ -73,7 +73,7 @@ const Contact = () => {
                                      <span>Github</span>
                                 </li>
                             </a>
-                            <a href='https://www.linkedin.com/in/durand18/' target="_blank" rel='noopener noreferrer'>
+                            <a href='https://www.linkedin.com/in/durandsalesforce/' target="_blank" rel='noopener noreferrer'>
                                 <li className={`${style.socialMedia__box} ${theme == 'dark' ? `${style.socialMedia__box_light}` : null}`}>
                                     <img src="/images/icon/social_media/linkedin_light.svg" className={`${style.socialMedia_image}`} alt="Linkedin Icon" />
                                     <span>Linkedin</span>
